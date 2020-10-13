@@ -28,4 +28,16 @@
 - Elastic Compute Cloud
 - Virtual Machine
 - Diff options(OS, disk management, hardware configuartion, processor, memory RAM, hard disk, Graphics etc..)
+-  Instance sizing(RAM), Instance Types(Processor), OS
+
+### Terminology/Services
+- **AMI(Amazon Machine Images)** - snapshot of virtual machine configuration 
+- **Instances** are created which can be started or stopped 
+- **(VPC) Virtual Private Cloud**
+- **Elastic Block Store (EBS)** provides persistent block level *storage volumes* for use with Amazon EC2 instances 
+- **S3 Bucket** 
+- Security Groups - port number, firewall,
+Web - 0.0.0.0/0 (all)
+App - Web
+DB - App
 
