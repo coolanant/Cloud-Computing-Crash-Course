@@ -37,7 +37,18 @@
 - **Elastic Block Store (EBS)** provides persistent block level *storage volumes* for use with Amazon EC2 instances 
 - **S3 Bucket** 
 - Security Groups - port number, firewall,
-Web - 0.0.0.0/0 (all)
-App - Web
-DB - App
+Web - 0.0.0.0/0 (all), App - Web, DB - App
+
+> connection to a linux machine should be done through SSH (Secure Shell) (port 22)
+> If you are on MAc, linux directly use, once instance is created
+On windows you need SSH Client - putty
+> convert *pem* Key to *ppk* using *putty gen*
+> putty - host ip 
+> SSH> Auth
+> User - linux - ec2-user, windows-administrator, ubuntu
+> Run Linux commands - ls, pwd, 
+> Installing Apache server -`sudo yum install httpd`
+> `sudo service httpd start`
+> `sudo service httpd status`
+> open public IP
 
