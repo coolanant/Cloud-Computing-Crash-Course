@@ -16,7 +16,8 @@
 ### Types of Cloud
 1. SaaS (Software) - Web Browser - Salesforce
 2. IaaS (Infrasturcture as a Service) - Data Centers - AWS
-3. PaaS (Platform) - Deployment - Heroku 
+3. PaaS (Platform) - Deployment - Heroku
+4. Function as a Service
 (AWS is all 3 of them)
 
 ## AWS Compute
@@ -24,7 +25,7 @@
 - lambda - serverless
 - ECS, EKS, Fargate - docker oon EC2 
 _____________________________________________________________________________
-### 1. EC2
+### 1. EC2 (Ias)
 - Elastic Compute Cloud
 - Virtual Machine
 - Diff options(OS, disk management, hardware configuartion, processor, memory RAM, hard disk, Graphics etc..)
@@ -63,4 +64,17 @@ Let say 1 Ec2 instance is not enough for your work load
 - Launch config(new server config), Auto Scaling Group(min, max, desired capacity), Scaling Plan
 __________________________________________________________________
 
-### 2. Elastic BeanStalk
+### 2. Elastic BeanStalk (PaS)
+- deployment application (node,php,python, etc...)
+- uploading zip (create ec2,loadbalancer, etc... automatically)
+
+____________________________________________________________________
+
+### 3. Lambda (FaS)
+- Run code without provisoning or managing server
+- event driven functions (at particular time,etc...)
+- websites, Alexa ,etc...
+- can call other services 
+- lambda_handler- starts here(like main)
+
+____________________________________________________________________
