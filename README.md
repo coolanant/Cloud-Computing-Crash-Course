@@ -1,7 +1,8 @@
 # Cloud-Computing-Crash-Course (AWS)
 
 <details close>
-  <summary> 01-Basics </summary>
+  <summary><h3> 01-Basics </h3> </summary>
+
 ### Advantages
 1. Cost Efficient (Pay for what you use)
 2. Agile & Speed
