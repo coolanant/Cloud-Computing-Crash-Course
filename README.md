@@ -88,5 +88,10 @@ ____________________________________________________________________
 <details close>
   <summary><h3> 02-Networking in AWS </h3> </summary>
   
+  VPC> Subnets > public & private > Internet Gateway> Attach VPC
+  > Route Table> Add Internet Gateway(10.0.0.0/0)
+  > NAT gateway
+  
+  DNS > Load Balancer > Route 53
   
 </details>
