@@ -23,7 +23,7 @@
 - EC2 - virtual servers
 - lambda - serverless
 - ECS, EKS, Fargate - docker oon EC2 
-
+_____________________________________________________________________________
 ### 1. EC2
 - Elastic Compute Cloud
 - Virtual Machine
@@ -51,4 +51,16 @@ On windows you need SSH Client - putty
 > `sudo service httpd start`
 > `sudo service httpd status`
 > open public IP
+> cd var/www/html
+> sudo vim index.html
+> esc :w :q
 
+______________________________________________________________________
+
+Let say 1 Ec2 instance is not enough for your work load
+### Auto Scaling
+- no additional charge
+- Launch config(new server config), Auto Scaling Group(min, max, desired capacity), Scaling Plan
+__________________________________________________________________
+
+### 2. Elastic BeanStalk
