@@ -26,6 +26,7 @@
 ## AWS Compute
 - EC2 - virtual servers
 - lambda - serverless
+- Elastic beantalk
 - ECS, EKS, Fargate - docker oon EC2 
 _____________________________________________________________________________
 ### 1. EC2 (Ias)
@@ -81,4 +82,11 @@ ____________________________________________________________________
 - lambda_handler- starts here(like main)
 
 ____________________________________________________________________
+</details>
+
+
+<details close>
+  <summary><h3> 02-Networking in AWS </h3> </summary>
+  
+  
 </details>
