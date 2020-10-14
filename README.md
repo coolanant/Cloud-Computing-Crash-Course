@@ -95,3 +95,29 @@ ____________________________________________________________________
   DNS > Load Balancer > Route 53
   
 </details>
+
+
+<details close>
+  <summary><h3> 03-Database AWS </h3> </summary>
+  
+  Block vs File vs Object Storage
+  <br/>
+  *1. Block Storage* - Raw Storage - ex hard disk (files)
+  <br/>
+  *2. File Storage* - NAS(Network Attached Storage)
+  <br/>
+  *3. Object Storage* - API Access to Data - ex. Ceph, Openstack Swift
+
+Access s3 data through API(Https)
+host static website on s3
+  
+EBS- SSD, HDD(disk drive)
+S3 -(online storage)
+</details>
+
+
+<details close>
+  <summary><h3> 04 </h3> </summary>
+  
+Amazon Cloud Watch - Monitoring Service(metrics, alarms, events) + Filter
+</details>
