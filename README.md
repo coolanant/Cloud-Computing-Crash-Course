@@ -39,21 +39,21 @@ _____________________________________________________________________________
 - Security Groups - port number, firewall,
 Web - 0.0.0.0/0 (all), App - Web, DB - App
 
-> connection to a linux machine should be done through SSH (Secure Shell) (port 22)
-> If you are on MAc, linux directly use, once instance is created
-On windows you need SSH Client - putty
-> convert *pem* Key to *ppk* using *putty gen*
-> putty - host ip 
-> SSH> Auth
-> User - linux - ec2-user, windows-administrator, ubuntu
-> Run Linux commands - ls, pwd, 
-> Installing Apache server -`sudo yum install httpd`
-> `sudo service httpd start`
-> `sudo service httpd status`
-> open public IP
-> cd var/www/html
-> sudo vim index.html
-> esc :w :q
+> connection to a linux machine should be done through SSH (Secure Shell) (port 22)<br/>
+> If you are on MAc, linux directly use, once instance is created<br/>
+On windows you need SSH Client - putty<br/>
+> convert *pem* Key to *ppk* using *putty gen*<br/>
+> putty - host ip <br/>
+> SSH> Auth<br/>
+> User - linux - ec2-user, windows-administrator, ubuntu<br/>
+> Run Linux commands - ls, pwd, <br/>
+> Installing Apache server -`sudo yum install httpd`<br/>
+> `sudo service httpd start`<br/>
+> `sudo service httpd status`<br/>
+> open public IP<br/>
+> cd var/www/html<br/>
+> sudo vim index.html<br/>
+> esc :w :q<br/>
 
 ______________________________________________________________________
 
